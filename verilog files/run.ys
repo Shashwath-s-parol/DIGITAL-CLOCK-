@@ -1,0 +1,4 @@
+read_verilog design.sv
+hierarchy -check -top digital_clock_top
+proc; opt; memory; opt; fsm; opt
+select -module digital_clock_top
